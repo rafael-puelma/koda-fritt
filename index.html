@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fri codet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="form">
+    <h3>Information och data  om hemsidan och annat</h1>
+    <div class="info"> Med detta föröker vi få fram browserns globala "location" object och några av dess egenskaper</div>
+    <div class="info2">Vi använder oss av global location objetcs och addEventListener</div>
+   
+    <button id="showMeButton">Visa mig "info" och "data" om hemsidans</button>
+    <div class="data" id="pageLocation"></div>
+    <div class="data" id="hostname"></div>
+    <div class="data" id="path"></div>
+    <div class="data" id="protocol"></div>
+    <div class="data" id="number"></div>
+    
+    <div class= "info2">Vi använder oss av funtioner som "queryselectorAll" och "Arrow function" för att rensa bort info och data om hemsidan</div> 
+    <button class="button" id="deleteButton">Rensa "Data"</button>
+  </form>
+
+  <form id="add" class="form"> 
+    <div class= "info">Med hjälp av "createElemnt och appendChild" vi till fler kanappar efter" "add more" knappen</div>
+    <button  id="button" class="button" onclick="createButton()">Add more buttons</button>
+    <div id="appended"></div>
+  </form>
+    
+  <form class="form"> 
+    <div class= "info">Med Hjälp av map och filter funtioner skall vi ta reda på vem min vänner är och vilka som är äldre än 20år</div>
+    <div class="info2">För att få fram personerna använder vi oss av "filter" och "Map" functions</div>
+    <button class="button" id="friends">Who are my friend </button>
+    <div id ="friendList"></div>
+    
+      <button class="button" id="oldEnough">Who of my friends older then 20 </button>
+    <div id ="oldEnoughList"></div>
+  </form>
+    <script src="script.js"></script>
+  </body>
+</html>
